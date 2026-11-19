@@ -1,0 +1,16 @@
+.git
+.gitignore
+.dockerignore
+node_modules
+frontend/node_modules
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+*.db
+backend/water_quality.db
+.env
+.vscode
+.idea
+*.log
