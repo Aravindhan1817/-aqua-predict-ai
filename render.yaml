@@ -9,11 +9,3 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
-      - key: DATABASE_PATH
-        value: /var/data/water_quality.db
-      - key: CORS_ORIGINS
-        value: "*"
-    disk:
-      name: water-data
-      mountPath: /var/data
-      sizeGB: 1
